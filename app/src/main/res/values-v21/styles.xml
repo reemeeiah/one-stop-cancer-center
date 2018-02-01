@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="cancer1" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorBackground">?android:attr/colorControlActivated</item>
+        <item name="android:windowBackground">?attr/colorAccent</item>
+    </style>
+</resources>
