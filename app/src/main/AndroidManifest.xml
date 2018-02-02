@@ -19,7 +19,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".user_type_page" />
-        <activity android:name=".admin_menu"></activity>
+        <activity android:name=".admin_menu" />
+        <activity android:name=".Edit_hospital_info"></activity>
     </application>
 
 </manifest>
