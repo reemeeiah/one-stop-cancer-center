@@ -11,5 +11,8 @@
     <style name="cancer1" parent="Theme.AppCompat.Light.NoActionBar" >
         <item name="android:windowBackground">?attr/colorAccent</item>
     </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
 
 </resources>

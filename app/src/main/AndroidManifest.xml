@@ -18,8 +18,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Main2Activity" />
-        <activity android:name=".user_type_page"></activity>
+        <activity android:name=".user_type_page" />
+        <activity android:name=".admin_menu"></activity>
     </application>
 
 </manifest>
