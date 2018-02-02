@@ -27,7 +27,7 @@
         android:layout_width="289dp"
         android:layout_height="42dp"
         android:text="one stop cancer center"
-        android:textSize="32dp"
+        android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.505"
