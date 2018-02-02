@@ -3,7 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/onestopcancercenter.iml" filepath="$PROJECT_DIR$/onestopcancercenter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/one-stop-cancer-center.iml" filepath="$PROJECT_DIR$/one-stop-cancer-center.iml" />
+      <module fileurl="file://C:\Users\asus\Desktop\github\one-stop-cancer-center\onestopcancercenter.iml" filepath="C:\Users\asus\Desktop\github\one-stop-cancer-center\onestopcancercenter.iml" />
     </modules>
   </component>
 </project>
