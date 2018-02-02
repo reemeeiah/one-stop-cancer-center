@@ -63,34 +63,44 @@ public class admin_menu extends AppCompatActivity
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
 
-        Toast.makeText(admin_menu.this, "item selected", LENGTH_SHORT);
-        return true;
-    }
-
-
-
-/*
-
-    @SuppressWarnings("StatementWithEmptyBody")
-    @Override
-    public boolean onNavigationItemSelected (MenuItem item) {
-        // Handle navigation view item clicks here.
+        //Toast.makeText(admin_menu.this, "item selected", LENGTH_SHORT).show();
         int id = item.getItemId();
 
         if (id == R.id.nav_home) {
-            // Handle the camera action
+
+            Toast.makeText(admin_menu.this, "home", LENGTH_SHORT).show();
+
         } else if (id == R.id.nav_hospitallist) {
+
+            Toast.makeText(admin_menu.this, "hospitallist", LENGTH_SHORT).show();
 
         } else if (id == R.id.nav_addhospital) {
 
+            Toast.makeText(admin_menu.this, "addhospital", LENGTH_SHORT).show();
+
         } else if (id == R.id.nav_logout) {
+
+            Toast.makeText(admin_menu.this, "logout", LENGTH_SHORT).show();
 
 
         }
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        drawer.closeDrawer(GravityCompat.START);
+
         return true;
     }
-    */
+
+
+
+
+  /*  @SuppressWarnings("StatementWithEmptyBody")
+    @Override
+
+    public boolean onNavigationItemSelected (MenuItem item) {
+
+
+      //  DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        //drawer.closeDrawer(GravityCompat.START);
+        return true;
+    }
+*/
 }
