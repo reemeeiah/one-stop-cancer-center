@@ -10,6 +10,7 @@
 
     <style name="cancer1" parent="Theme.AppCompat.Light.NoActionBar" >
         <item name="android:windowBackground">@color/backg1</item>
+        <item name="android:textColorPrimaryInverse">@android:color/black</item>
     </style>
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
