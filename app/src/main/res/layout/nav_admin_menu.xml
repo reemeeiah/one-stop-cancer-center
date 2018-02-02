@@ -17,8 +17,8 @@
         android:layout_height="wrap_content"
         android:paddingTop="26dp"
         android:text="admin name"
+        android:textSize="30dp"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
-
 
 
 </LinearLayout>

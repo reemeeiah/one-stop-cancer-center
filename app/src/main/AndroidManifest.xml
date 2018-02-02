@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".admin_menu"
+            android:name=".MainActivity"
             android:theme="@style/cancer1">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,7 +19,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".user_type_page" />
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".admin_menu"></activity>
     </application>
 
 </manifest>
