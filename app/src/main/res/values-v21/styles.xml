@@ -3,6 +3,7 @@
 
     <style name="cancer1" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="android:colorBackground">?android:attr/colorControlActivated</item>
-        <item name="android:windowBackground">?attr/colorAccent</item>
+        <item name="android:windowBackground">@color/backg1</item>
+        <item name="android:statusBarColor">@color/bar</item>
     </style>
 </resources>

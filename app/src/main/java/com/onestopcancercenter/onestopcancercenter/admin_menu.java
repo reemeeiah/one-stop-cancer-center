@@ -91,16 +91,4 @@ public class admin_menu extends AppCompatActivity
 
 
 
-
-  /*  @SuppressWarnings("StatementWithEmptyBody")
-    @Override
-
-    public boolean onNavigationItemSelected (MenuItem item) {
-
-
-      //  DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        //drawer.closeDrawer(GravityCompat.START);
-        return true;
-    }
-*/
 }
