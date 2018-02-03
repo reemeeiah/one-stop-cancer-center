@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name=".homepage"
             android:theme="@style/cancer1">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,7 +22,7 @@
         <activity android:name=".admin_menu" />
         <activity android:name=".Edit_hospital_info" />
         <activity android:name=".Menu_user" />
-        <activity android:name=".homepage"></activity>
+        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>
