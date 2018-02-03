@@ -8,71 +8,97 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="164dp"
-        android:layout_height="149dp"
+        android:layout_width="0dp"
+        android:layout_height="83dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginStart="3dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/editText3"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.235"
-        app:srcCompat="@drawable/hospital"
-        tools:layout_editor_absoluteX="3dp" />
+        app:srcCompat="@drawable/hospital" />
 
     <EditText
         android:id="@+id/editText2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="11dp"
+        android:layout_marginEnd="17dp"
         android:ems="10"
         android:hint="hospital name"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="181dp"
-        tools:layout_editor_absoluteY="116dp" />
+        app:layout_constraintBottom_toTopOf="@+id/editText3"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <EditText
         android:id="@+id/editText3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="9dp"
+        android:layout_marginEnd="17dp"
         android:ems="10"
         android:hint="city"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="181dp"
-        tools:layout_editor_absoluteY="172dp" />
+        app:layout_constraintBottom_toTopOf="@+id/editText4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView" />
 
     <EditText
         android:id="@+id/editText4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="21dp"
         android:ems="10"
         android:hint="contact info"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="182dp"
-        tools:layout_editor_absoluteY="227dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <EditText
         android:id="@+id/editText5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"
         android:ems="10"
         android:hint="URL Map"
         android:inputType="textPassword"
-        tools:layout_editor_absoluteX="182dp"
-        tools:layout_editor_absoluteY="279dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText4" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/floatingActionButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="145dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="147dp"
         android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText4"
         app:rippleColor="@android:color/black"
-        app:srcCompat="@android:drawable/ic_menu_add"
-        tools:layout_editor_absoluteX="64dp"
-        tools:layout_editor_absoluteY="418dp" />
+        app:srcCompat="@android:drawable/ic_menu_add" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
         android:text="add specialist"
         android:textSize="30dp"
-        tools:layout_editor_absoluteX="112dp"
-        tools:layout_editor_absoluteY="418dp" />
+        app:layout_constraintStart_toEndOf="@+id/floatingActionButton"
+        app:layout_constraintTop_toTopOf="@+id/floatingActionButton" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
 
 </android.support.constraint.ConstraintLayout>
