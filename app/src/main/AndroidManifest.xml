@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".homepage"
+            android:name=".Hospital_menu"
             android:theme="@style/cancer1">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,10 +18,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".user_type_page" />
-        <activity android:name=".admin_menu" />
+        <activity android:name=".User_type_page" />
+        <activity android:name=".Admin_menu" />
         <activity android:name=".Edit_hospital_info" />
         <activity android:name=".Menu_user" />
+        <activity android:name=".Homepage" />
         <activity android:name=".MainActivity"></activity>
     </application>
 

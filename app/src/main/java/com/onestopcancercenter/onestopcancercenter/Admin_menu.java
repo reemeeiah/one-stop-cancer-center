@@ -2,9 +2,6 @@ package com.onestopcancercenter.onestopcancercenter;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -17,7 +14,7 @@ import android.widget.Toast;
 
 import static android.widget.Toast.LENGTH_SHORT;
 
-public class admin_menu extends AppCompatActivity
+public class Admin_menu extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener   {
 
 
@@ -63,24 +60,24 @@ public class admin_menu extends AppCompatActivity
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
 
-        //Toast.makeText(admin_menu.this, "item selected", LENGTH_SHORT).show();
+        //Toast.makeText(Admin_menu.this, "item selected", LENGTH_SHORT).show();
         int id = item.getItemId();
 
         if (id == R.id.nav_home) {
 
-            Toast.makeText(admin_menu.this, "home", LENGTH_SHORT).show();
+            Toast.makeText(Admin_menu.this, "home", LENGTH_SHORT).show();
 
         } else if (id == R.id.nav_hospitallist) {
 
-            Toast.makeText(admin_menu.this, "hospitallist", LENGTH_SHORT).show();
+            Toast.makeText(Admin_menu.this, "hospitallist", LENGTH_SHORT).show();
 
         } else if (id == R.id.nav_addhospital) {
 
-            Toast.makeText(admin_menu.this, "addhospital", LENGTH_SHORT).show();
+            Toast.makeText(Admin_menu.this, "addhospital", LENGTH_SHORT).show();
 
         } else if (id == R.id.nav_logout) {
 
-            Toast.makeText(admin_menu.this, "logout", LENGTH_SHORT).show();
+            Toast.makeText(Admin_menu.this, "logout", LENGTH_SHORT).show();
 
 
         }
