@@ -88,7 +88,6 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
         android:text="add specialist"
         android:textSize="30dp"
         app:layout_constraintStart_toEndOf="@+id/floatingActionButton"
@@ -100,5 +99,17 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintGuide_begin="20dp" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:layout_marginStart="64dp"
+        android:text="submit"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintStart_toStartOf="@+id/editText5"
+        tools:ignore="MissingConstraints" />
 
 </android.support.constraint.ConstraintLayout>
