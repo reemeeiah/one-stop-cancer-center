@@ -76,7 +76,10 @@ public class Menu_user extends AppCompatActivity
 
         if (id == R.id.Nav_home) {
 
-            Toast.makeText(Menu_user.this, "home", LENGTH_SHORT).show();
+          //  Toast.makeText(Menu_user.this, "home", LENGTH_SHORT).show();
+
+            Intent intent = new Intent(this,Homepage.class);
+            this.startActivity(intent);
 
         } else if (id == R.id.Nav_stories) {
 
