@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.onestopcancercenter.onestopcancercenter">
 
     <application
@@ -10,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".Menu_user"
+            android:name=".MainActivity"
             android:theme="@style/cancer1">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,9 +22,9 @@
         <activity android:name=".User_type_page" />
         <activity android:name=".Admin_menu" />
         <activity android:name=".Edit_hospital_info" />
-        <activity android:name=".MainActivity" />
         <activity android:name=".Homepage" />
-        <activity android:name=".Hospital_menu"></activity>
+        <activity android:name=".Hospital_menu" />
+        <activity android:name=".admin_HOSPITAL_Edit_MENU" />
     </application>
 
 </manifest>
