@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name=".StoryAdd"
             android:theme="@style/cancer1">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,6 +25,8 @@
         <activity android:name=".Homepage" />
         <activity android:name=".Hospital_menu" />
         <activity android:name=".admin_HOSPITAL_Edit_MENU" />
+        <activity android:name=".add_awareness_for_hospital" />
+
     </application>
 
 </manifest>

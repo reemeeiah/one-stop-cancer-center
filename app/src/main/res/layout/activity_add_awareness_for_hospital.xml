@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.onestopcancercenter.onestopcancercenter.add_awareness_for_hospital">
+
+    <EditText
+        android:id="@+id/editText66"
+        android:layout_width="223dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="161dp"
+        android:ems="10"
+        android:hint="Awareness Subject"
+        android:inputType="textMultiLine|textPersonName"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:theme="@style/Animation.AppCompat.Dialog"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.813"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="157dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="12dp"
+        android:autoSizeMaxTextSize="@dimen/activity_vertical_margin"
+        android:text="subject:"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/editText77"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <EditText
+        android:id="@+id/editText77"
+        style="@android:style/Widget.DeviceDefault.AutoCompleteTextView"
+        android:layout_width="324dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/boxedit"
+        android:ems="10"
+        android:hint="write the awareness"
+        android:inputType="textMultiLine"
+        android:keyboardNavigationCluster="?android:attr/windowOverscan"
+        android:selectAllOnFocus="false"
+        android:singleLine="false"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:textEditSideNoPasteWindowLayout="@style/Animation.AppCompat.DropDownUp"
+        android:textSize="18sp"
+        android:visibility="visible"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText66" />
+
+    <Button
+        android:id="@+id/button555"
+        android:layout_width="129dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Submit"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/button677"
+        app:layout_constraintEnd_toStartOf="@+id/button677"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText77"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/button677"
+        android:layout_width="0dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="@android:string/cancel"
+        android:textColor="@color/backg1"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button555"
+        app:layout_constraintTop_toBottomOf="@+id/editText77" />
+
+</android.support.constraint.ConstraintLayout>
