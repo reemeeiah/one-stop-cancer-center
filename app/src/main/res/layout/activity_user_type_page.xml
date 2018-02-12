@@ -21,7 +21,8 @@
         android:layout_height="wrap_content"
         android:text="زق "
         android:textSize="30sp"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        tools:layout_editor_absoluteY="82dp" />
+        tools:layout_editor_absoluteY="129dp" />
 </android.support.constraint.ConstraintLayout>
