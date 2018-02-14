@@ -25,7 +25,6 @@
         <activity android:name=".Hospital_menu" />
         <activity android:name=".admin_HOSPITAL_Edit_MENU" />
         <activity android:name=".add_awareness_for_hospital" />
-        <activity android:name=".push_test"></activity>
     </application>
 
 </manifest>
