@@ -19,14 +19,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".User_type_page" />
         <activity android:name=".Admin_menu" />
         <activity android:name=".Edit_hospital_info" />
         <activity android:name=".Homepage" />
         <activity android:name=".Hospital_menu" />
         <activity android:name=".admin_HOSPITAL_Edit_MENU" />
         <activity android:name=".add_awareness_for_hospital" />
-
+        <activity android:name=".push_test"></activity>
     </application>
 
 </manifest>

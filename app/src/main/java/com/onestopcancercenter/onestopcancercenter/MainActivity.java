@@ -16,16 +16,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        final ImageView IV = (ImageView) findViewById(R.id.imageView3);
-        final Intent intent= new Intent(this, User_type_page.class);
-        IV.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                startActivity(intent);
-
-            }
-        });
 
     }
 }
