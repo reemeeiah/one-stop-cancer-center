@@ -68,7 +68,7 @@
         android:textAllCaps="true"
         android:textAppearance="@style/TextAppearance.AppCompat.Caption"
         android:textEditSideNoPasteWindowLayout="@style/Animation.AppCompat.DropDownUp"
-        android:textSize="18sp"
+        android:textSize="24sp"
         android:visibility="visible"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
