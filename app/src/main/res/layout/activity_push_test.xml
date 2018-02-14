@@ -10,7 +10,21 @@
         android:id="@+id/radioButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="131dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginTop="132dp"
         android:text="RadioButton"
-        tools:layout_editor_absoluteX="165dp"
-        tools:layout_editor_absoluteY="132dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/progressBar2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="216dp"
+        android:layout_marginStart="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/radioButton" />
 </android.support.constraint.ConstraintLayout>
