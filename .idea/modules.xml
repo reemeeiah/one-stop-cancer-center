@@ -3,9 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://C:\Users\A\Desktop\one-stop-cancer-center\app\app.iml" filepath="C:\Users\A\Desktop\one-stop-cancer-center\app\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/one-stop-cancer-center.iml" filepath="$PROJECT_DIR$/one-stop-cancer-center.iml" />
-      <module fileurl="file://C:\Users\A\Desktop\one-stop-cancer-center\one-stop-cancer-center.iml" filepath="C:\Users\A\Desktop\one-stop-cancer-center\one-stop-cancer-center.iml" />
     </modules>
   </component>
 </project>

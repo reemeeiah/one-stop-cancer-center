@@ -24,21 +24,21 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="289dp"
+        android:layout_width="310dp"
         android:layout_height="42dp"
         android:layout_marginBottom="8dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
-        android:text="      one stop cancer center"
-        android:textColor="@color/colorAccent"
-        android:textSize="20dp"
+        android:text="one stop cancer center"
+        android:textAlignment="center"
+        android:textColor="@color/backg1"
+        android:textSize="30dp"
+        android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.644"
+        app:layout_constraintHorizontal_bias="0.594"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.818" />
+        app:layout_constraintVertical_bias="0.82" />
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline"
