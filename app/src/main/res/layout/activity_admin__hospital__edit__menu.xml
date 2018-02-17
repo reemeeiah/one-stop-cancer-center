@@ -53,7 +53,8 @@
         android:textColor="@color/common_google_signin_btn_text_dark_focused"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/button3"
-        app:layout_constraintStart_toEndOf="@+id/imageView6" />
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        tools:text="contact information" />
 
     <Button
         android:id="@+id/button4"
