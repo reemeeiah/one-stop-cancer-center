@@ -59,7 +59,7 @@
         android:layout_marginTop="8dp"
         android:background="@drawable/boxedit"
         android:ems="10"
-        android:hint="write the awareness"
+        android:hint="write an awareness"
         android:inputType="textMultiLine"
         android:keyboardNavigationCluster="?android:attr/windowOverscan"
         android:selectAllOnFocus="false"
