@@ -87,7 +87,7 @@
         android:layout_marginStart="73dp"
         android:layout_marginTop="8dp"
         android:background="@android:color/holo_blue_dark"
-        android:text="@android:string/submit"
+        android:text="submit"
         android:textColor="@color/backg1"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/button677"
