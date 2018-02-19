@@ -26,7 +26,8 @@
         <activity android:name=".admin_HOSPITAL_Edit_MENU" />
         <activity android:name=".add_awareness_for_hospital" />
         <activity android:name=".user_sign_in_page" />
-        <activity android:name=".user_sign_up_page"></activity>
+        <activity android:name=".user_sign_up_page" />
+        <activity android:name=".Hospital_sign_up_page"></activity>
     </application>
 
 </manifest>
