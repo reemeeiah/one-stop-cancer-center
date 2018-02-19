@@ -18,6 +18,7 @@
         tools:layout_editor_absoluteY="447dp" />
 
     <FrameLayout
+        android:id="@+id/frameLayout"
         android:layout_width="307dp"
         android:layout_height="322dp"
         android:background="#FFFFFF"
@@ -42,8 +43,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPersonName"
         android:hint="NAME"
+        android:inputType="textPersonName"
         tools:layout_editor_absoluteX="70dp"
         tools:layout_editor_absoluteY="136dp" />
 
@@ -52,8 +53,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPassword"
         android:hint="E-ENTER PASSWORD"
+        android:inputType="textPassword"
         tools:layout_editor_absoluteX="70dp"
         tools:layout_editor_absoluteY="262dp" />
 
@@ -62,8 +63,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPassword"
         android:hint="RPASSWORD"
+        android:inputType="textPassword"
         tools:layout_editor_absoluteX="70dp"
         tools:layout_editor_absoluteY="201dp" />
 
@@ -72,8 +73,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textEmailAddress"
         android:hint="Email"
+        android:inputType="textEmailAddress"
         tools:layout_editor_absoluteX="70dp"
         tools:layout_editor_absoluteY="318dp" />
     <ImageView
