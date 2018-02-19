@@ -102,11 +102,16 @@
         android:id="@+id/imageView"
         android:layout_width="89dp"
         android:layout_height="69dp"
-        android:layout_marginBottom="508dp"
-        android:layout_marginStart="136dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/editText3"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.065"
         app:srcCompat="@drawable/user_icon" />
 
 </android.support.constraint.ConstraintLayout>
