@@ -32,14 +32,16 @@
     <Button
         android:id="@+id/button5"
         android:layout_width="236dp"
-        android:layout_height="40dp"
+        android:layout_height="39dp"
         android:background="#6abf53"
         android:text="Sign In"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
 
-        tools:layout_editor_absoluteX="58dp"
-        tools:layout_editor_absoluteY="433dp" />
+        app:layout_constraintHorizontal_bias="0.411"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="444dp" />
 
     <EditText
         android:id="@+id/editText6"
@@ -60,12 +62,13 @@
         android:inputType="textPassword"
         tools:layout_editor_absoluteX="85dp"
         tools:layout_editor_absoluteY="331dp" />
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="33dp"
         android:layout_height="42dp"
-        android:layout_marginBottom="136dp"
-        android:layout_marginStart="48dp"
+        android:layout_marginBottom="248dp"
+        android:layout_marginStart="64dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/editText3"
         app:layout_constraintStart_toStartOf="parent"
