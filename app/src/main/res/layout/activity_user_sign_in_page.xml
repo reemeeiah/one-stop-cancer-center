@@ -70,11 +70,12 @@
         app:layout_constraintEnd_toStartOf="@+id/editText3"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/key" />
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="94dp"
         android:layout_height="104dp"
-        android:layout_marginBottom="324dp"
+        android:layout_marginBottom="368dp"
         android:layout_marginStart="144dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/editText3"
