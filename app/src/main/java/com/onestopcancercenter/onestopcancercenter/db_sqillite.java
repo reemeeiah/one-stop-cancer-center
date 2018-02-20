@@ -7,7 +7,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.os.Environment;
 
 public class db_sqillite extends SQLiteOpenHelper{
-    public static final String Dbname="reemeeiah.db";
+    public static final String Dbname= "reemeeiah";
     public static final String Dblocation= Environment.getDataDirectory()+"/data/ com.onestopcancercenter.onestopcancercenter/database";
     private  Context mContext;
     private  SQLiteDatabase mDatabase;

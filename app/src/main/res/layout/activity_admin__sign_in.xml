@@ -50,11 +50,11 @@
 
     <ImageView
         android:id="@+id/imageView7"
-        android:layout_width="46dp"
-        android:layout_height="52dp"
+        android:layout_width="33dp"
+        android:layout_height="42dp"
         android:layout_marginTop="352dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.161"
+        app:layout_constraintHorizontal_bias="0.137"
         app:layout_constraintLeft_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -68,6 +68,7 @@
         android:background="#6abf53"
         android:text="Sign in"
         android:textColor="@color/backg1"
+        android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintLeft_toRightOf="parent"

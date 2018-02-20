@@ -6,85 +6,101 @@
     android:layout_height="match_parent"
     tools:context="com.onestopcancercenter.onestopcancercenter.user_sign_in_page">
 
-    <EditText
-        android:id="@+id/editText"
+    <Button
+        android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="42dp"
+        android:layout_marginTop="40dp"
         android:background="#6abf53"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Sign In"
+        android:text="Sign Up"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="20dp"
-        tools:layout_editor_absoluteX="72dp"
-        tools:layout_editor_absoluteY="23dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="94dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="104dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/user_icon" />
 
     <FrameLayout
         android:layout_width="290dp"
         android:layout_height="166dp"
+        android:layout_marginTop="232dp"
         android:background="#FFFFFF"
-        tools:layout_editor_absoluteX="48dp"
-        tools:layout_editor_absoluteY="232dp">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
     </FrameLayout>
-
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="236dp"
-        android:layout_height="39dp"
-        android:background="#6abf53"
-        android:text="Sign In"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-
-        app:layout_constraintHorizontal_bias="0.411"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        tools:layout_editor_absoluteY="444dp" />
 
     <EditText
         android:id="@+id/editText6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
         android:ems="10"
         android:hint="NAME"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="254dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/editText7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="312dp"
         android:ems="10"
         android:hint="PASSWORD"
         android:inputType="textPassword"
-        tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="331dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="33dp"
         android:layout_height="42dp"
-        android:layout_marginBottom="248dp"
-        android:layout_marginStart="64dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/editText3"
+        android:layout_marginTop="312dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.137"
+        app:layout_constraintLeft_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/key" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="94dp"
-        android:layout_height="104dp"
-        android:layout_marginBottom="388dp"
-        android:layout_marginStart="144dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/editText3"
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="236dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="428dp"
+        android:background="#6abf53"
+        android:text="Sign In"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintLeft_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/user_icon" />
-
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </android.support.constraint.ConstraintLayout>
