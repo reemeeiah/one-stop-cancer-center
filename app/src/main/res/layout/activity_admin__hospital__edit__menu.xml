@@ -6,12 +6,11 @@
     android:layout_height="match_parent"
     tools:context="com.onestopcancercenter.onestopcancercenter.admin_HOSPITAL_Edit_MENU">
 
-
     <FrameLayout
         android:id="@+id/frameLayout2"
         android:layout_width="411dp"
         android:layout_height="215dp"
-        android:layout_marginTop="116dp"
+        android:layout_marginTop="68dp"
         android:background="@color/colorAccent"
         android:isScrollContainer="true"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,25 +20,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <TextView
-            android:id="@+id/textView6"
-            android:layout_width="183dp"
-            android:layout_height="41dp"
-            android:layout_marginBottom="20dp"
-            android:text="Contact info"
-            android:textAlignment="center"
-            android:textColor="@color/common_google_signin_btn_text_dark_focused"
-            android:textSize="18sp"
-            app:layout_constraintBottom_toTopOf="@+id/button3"
-            app:layout_constraintStart_toEndOf="@+id/imageView6" />
     </FrameLayout>
 
     <TextView
         android:id="@+id/textView9"
         android:layout_width="234dp"
         android:layout_height="39dp"
-        android:layout_marginLeft="88dp"
         android:layout_marginStart="88dp"
+        android:layout_marginLeft="88dp"
         android:layout_marginTop="16dp"
         android:text="Hospital List"
         android:textAlignment="center"
@@ -53,8 +41,9 @@
         android:id="@+id/imageView6"
         android:layout_width="121dp"
         android:layout_height="107dp"
-        android:layout_marginBottom="16dp"
-        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
         android:contentDescription="@string/todo"
         app:layout_constraintBottom_toTopOf="@+id/button4"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -83,12 +72,24 @@
         app:layout_constraintBottom_toTopOf="@+id/textView6"
         app:layout_constraintStart_toEndOf="@+id/imageView6" />
 
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="183dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="20dp"
+        android:text="Contact info"
+        android:textAlignment="center"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintStart_toEndOf="@+id/imageView6" />
+
     <Button
         android:id="@+id/button4"
         android:layout_width="135dp"
         android:layout_height="49dp"
-        android:layout_marginLeft="32dp"
         android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
         android:text="View More..."
         android:textColor="@android:color/holo_blue_dark"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -100,8 +101,8 @@
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="49dp"
-        android:layout_marginLeft="32dp"
         android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
         android:text="Edit"
         android:textColor="@android:color/holo_green_dark"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -113,8 +114,8 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="49dp"
-        android:layout_marginLeft="8dp"
         android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
         android:text="Delete"
         android:textColor="@android:color/holo_red_dark"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -122,7 +123,6 @@
         app:layout_constraintStart_toEndOf="@+id/button3"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.451" />
-
 
 
 </android.support.constraint.ConstraintLayout>

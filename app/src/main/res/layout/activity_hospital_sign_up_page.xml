@@ -78,27 +78,6 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="33dp"
-        android:layout_height="42dp"
-        android:layout_marginBottom="248dp"
-        android:layout_marginStart="36dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/editText3"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/key" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="33dp"
-        android:layout_height="42dp"
-        android:layout_marginBottom="188dp"
-        android:layout_marginStart="36dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/key" />
-
-    <ImageView
-        android:id="@+id/imageView"
         android:layout_width="98dp"
         android:layout_height="71dp"
         android:layout_marginBottom="484dp"
@@ -108,5 +87,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/hospit" />
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="48dp"
+        android:layout_height="37dp"
+        app:srcCompat="@drawable/key"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="218dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="48dp"
+        android:layout_height="37dp"
+        app:srcCompat="@drawable/key"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="283dp" />
 
 </android.support.constraint.ConstraintLayout>
