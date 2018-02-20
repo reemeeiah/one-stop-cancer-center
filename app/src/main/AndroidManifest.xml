@@ -33,7 +33,6 @@
         <activity android:name=".user_sign_in_page" />
         <activity android:name=".user_sign_up_page" />
         <activity android:name=".Admin_Sign_in" />
-        <activity android:name=".List_of_Hospitals"></activity>
     </application>
 
 </manifest>
