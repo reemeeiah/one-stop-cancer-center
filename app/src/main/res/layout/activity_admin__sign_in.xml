@@ -21,7 +21,7 @@
     </FrameLayout>
 
     <EditText
-        android:id="@+id/editText18"
+        android:id="@+id/adminlogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="296dp"
@@ -35,7 +35,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editText19"
+        android:id="@+id/password2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="352dp"
@@ -64,7 +64,7 @@
         android:id="@+id/button8"
         android:layout_width="216dp"
         android:layout_height="50dp"
-        android:layout_marginTop="448dp"
+        android:layout_marginTop="512dp"
         android:background="#6abf53"
         android:text="Sign in"
         android:textColor="@color/backg1"
@@ -74,5 +74,16 @@
         app:layout_constraintLeft_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="215dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="36dp"
+        android:layout_marginLeft="96dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button8"
+        app:layout_constraintLeft_toLeftOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
