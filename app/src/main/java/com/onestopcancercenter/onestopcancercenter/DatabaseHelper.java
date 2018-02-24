@@ -98,6 +98,7 @@ public class DatabaseHelper extends SQLiteOpenHelper{
         Toast.makeText(myContext, " تم جلب قاعدة البيانات" , Toast.LENGTH_LONG).show();
     }
     public void deleteDb() {
+
         File file = new File(pathToSaveDBFile);
         if(file.exists()) {
 
