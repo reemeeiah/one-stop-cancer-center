@@ -13,7 +13,6 @@ public class Homepage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_homepage);
 
-
     String s = "/data/data" + Homepage.this.getPackageName() + "/Database/";
 
     DatabaseHelper DB = new DatabaseHelper(Homepage.this, s);
