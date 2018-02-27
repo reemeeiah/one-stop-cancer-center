@@ -16,7 +16,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MaintainDB"
+            android:name=".Homepage"
             android:theme="@style/cancer1">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -39,7 +39,7 @@
         <activity android:name=".Hospital_sign_up_page" />
         <activity android:name=".MainActivity" />
         <activity android:name=".user_sign_in_page" />
-        <activity android:name=".Homepage"></activity>
+        <activity android:name=".MaintainDB"></activity>
     </application>
 
 </manifest>
