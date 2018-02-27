@@ -2,6 +2,7 @@ package com.onestopcancercenter.onestopcancercenter;
 
 
 import android.content.Context;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteException;
 import android.database.sqlite.SQLiteOpenHelper;
@@ -32,11 +33,7 @@ public class DatabaseHelper extends SQLiteOpenHelper{
         this.myContext = context ;
 
         pathToSaveDBFile = filePath+ databaseName ;
-
-
-
-
-
+        Log.d("print",pathToSaveDBFile);
     }
 
 
@@ -83,6 +80,7 @@ public class DatabaseHelper extends SQLiteOpenHelper{
 
     private void copyDataBase() throws IOException {
 
+        Toast.makeText(myContext, " سيتم جلب قاعدة البيانات" , Toast.LENGTH_LONG).show();
 
         OutputStream os = new FileOutputStream(pathToSaveDBFile);
 
@@ -108,7 +106,23 @@ public class DatabaseHelper extends SQLiteOpenHelper{
         }
     }
 
+public Cursor getTableData(String tableName)
 
+{
+    Log.e("print","getReadableDatabase");
+    SQLiteDatabase db=this.getReadableDatabase();
+
+   // if (db.isOpen()) db.close();
+
+
+
+    Log.d("print","gettable");
+
+
+    Cursor result = db.rawQuery("select * from "+ tableName,null);
+
+    return result;
+}
 
 
 
@@ -116,7 +130,7 @@ public class DatabaseHelper extends SQLiteOpenHelper{
     public void onCreate(SQLiteDatabase db) {
 
 
-        // db = this.getWritableDatabase();
+      //  db = this.getWritableDatabase();
 
 
 
