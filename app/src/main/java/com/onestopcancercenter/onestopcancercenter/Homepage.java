@@ -77,8 +77,6 @@ public class Homepage extends AppCompatActivity implements AdapterView.OnItemCli
 
         });
 
-
-
     }
 
     @Override
