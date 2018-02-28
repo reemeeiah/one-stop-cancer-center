@@ -1,24 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.onestopcancercenter.onestopcancercenter.StoryAdd">
+    tools:context="com.onestopcancercenter.onestopcancercenter.add_cancer">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
 
     <TextView
-        android:id="@+id/story_title"
+        android:id="@+id/cancer_title"
         android:layout_width="234dp"
         android:layout_height="39dp"
-        android:layout_marginBottom="76dp"
-        android:layout_marginLeft="96dp"
+        android:layout_marginBottom="28dp"
+        android:layout_marginLeft="88dp"
         android:autoSizeMaxTextSize="@dimen/activity_vertical_margin"
-        android:text="Add Story"
         android:textAlignment="center"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/storyneme"
-        app:layout_constraintLeft_toLeftOf="parent" />
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:text="add cancer type" />
 
     <EditText
         android:id="@+id/storyneme"
@@ -26,31 +42,30 @@
         android:layout_height="47dp"
         android:layout_marginTop="161dp"
         android:ems="10"
-        android:hint="Story Subject"
+        android:hint="cancer name"
         android:inputType="textMultiLine|textPersonName"
         android:textAlignment="center"
         android:textSize="18sp"
         android:theme="@style/Animation.AppCompat.Dialog"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.771"
+        app:layout_constraintHorizontal_bias="0.813"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textViewt"
         android:layout_width="157dp"
         android:layout_height="41dp"
         android:layout_marginLeft="16dp"
-        android:layout_marginTop="88dp"
         android:autoSizeMaxTextSize="@dimen/activity_vertical_margin"
         android:text="subject:"
         android:textAlignment="center"
         android:textColor="@android:color/black"
         android:textSize="24sp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/story_title" />
+        app:layout_constraintTop_toTopOf="@+id/storyneme" />
 
     <EditText
         android:id="@+id/storytitle"
@@ -60,7 +75,7 @@
         android:layout_marginTop="8dp"
         android:background="@drawable/boxedit"
         android:ems="10"
-        android:hint="write the story"
+        android:hint="write the description"
         android:inputType="textMultiLine"
         android:keyboardNavigationCluster="?android:attr/windowOverscan"
         android:selectAllOnFocus="false"
@@ -106,5 +121,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/submit_"
         app:layout_constraintTop_toBottomOf="@+id/storytitle" />
+
 
 </android.support.constraint.ConstraintLayout>

@@ -18,6 +18,7 @@ public class MaintainDB extends AppCompatActivity {
     DatabaseHelper DB;
     Cursor result;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
