@@ -60,14 +60,14 @@ public class Hospital_menu extends AppCompatActivity implements NavigationView.O
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
 
         //Toast.makeText(Admin_menu.this, "item selected", LENGTH_SHORT).show();
+
+
         int id = item.getItemId();
 
         if (id == R.id.nav_home) {
 
 
             //Toast.makeText(Hospital_menu.this, "home", LENGTH_SHORT).show();
-
-            // Toast.makeText(Hospital_menu.this, "home", LENGTH_SHORT).show();
 
 
             Intent intent = new Intent(this,Homepage.class);
@@ -85,7 +85,7 @@ public class Hospital_menu extends AppCompatActivity implements NavigationView.O
 
             //Toast.makeText(Hospital_menu.this, "awarness", LENGTH_SHORT).show();
 
-            Intent intent = new Intent(this,Hospital_info.class);
+            Intent intent = new Intent(this,Awareness_List.class);
             this.startActivity(intent);
 
         } else if (id == R.id.nav_logout) {
