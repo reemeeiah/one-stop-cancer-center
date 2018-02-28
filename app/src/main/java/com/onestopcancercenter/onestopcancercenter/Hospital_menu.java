@@ -1,5 +1,6 @@
 package com.onestopcancercenter.onestopcancercenter;
 
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -63,15 +64,24 @@ public class Hospital_menu extends AppCompatActivity implements NavigationView.O
 
         if (id == R.id.nav_home) {
 
-            Toast.makeText(Hospital_menu.this, "home", LENGTH_SHORT).show();
+            //Toast.makeText(Hospital_menu.this, "home", LENGTH_SHORT).show();
+
+            Intent intent = new Intent(this,Homepage.class);
+            this.startActivity(intent);
 
         } else if (id == R.id.nav_addawarness) {
 
-            Toast.makeText(Hospital_menu.this, "add awarness", LENGTH_SHORT).show();
+           // Toast.makeText(Hospital_menu.this, "add awarness", LENGTH_SHORT).show();
+
+            Intent intent = new Intent(this,add_awareness_for_hospital.class);
+            this.startActivity(intent);
 
         } else if (id == R.id.nav_awarness) {
 
-            Toast.makeText(Hospital_menu.this, "awarness", LENGTH_SHORT).show();
+            //Toast.makeText(Hospital_menu.this, "awarness", LENGTH_SHORT).show();
+
+            Intent intent = new Intent(this,Hospital_info.class);
+            this.startActivity(intent);
 
         } else if (id == R.id.nav_logout) {
 
