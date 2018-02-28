@@ -1,5 +1,6 @@
 package com.onestopcancercenter.onestopcancercenter;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -15,12 +16,19 @@ import java.util.ArrayList;
 
 public class List_of_Hospitals extends AppCompatActivity {
 
+    String CN; // to recieve data from thoer activitiy
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list_of__hospitals);
 
         final   ArrayList<ListItem> Hospitals=new  ArrayList<ListItem> ();
+
+        Intent intent = getIntent();
+        CN = intent.getStringExtra("CN");
+        Hospitals.add(new ListItem(CN));
         Hospitals.add(new ListItem("Noura"));
         Hospitals.add(new ListItem("Reemeeiah"));
         Hospitals.add(new ListItem("Nawal"));

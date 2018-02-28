@@ -64,7 +64,11 @@ public class Hospital_menu extends AppCompatActivity implements NavigationView.O
 
         if (id == R.id.nav_home) {
 
+<<<<<<< HEAD
             //Toast.makeText(Hospital_menu.this, "home", LENGTH_SHORT).show();
+=======
+            // Toast.makeText(Hospital_menu.this, "home", LENGTH_SHORT).show();
+>>>>>>> ربط في المنيو و ليست لسيرش و الفيو في كانسر تايب
 
             Intent intent = new Intent(this,Homepage.class);
             this.startActivity(intent);
@@ -78,9 +82,15 @@ public class Hospital_menu extends AppCompatActivity implements NavigationView.O
 
         } else if (id == R.id.nav_awarness) {
 
+<<<<<<< HEAD
             //Toast.makeText(Hospital_menu.this, "awarness", LENGTH_SHORT).show();
 
             Intent intent = new Intent(this,Hospital_info.class);
+=======
+           // Toast.makeText(Hospital_menu.this, "awarness", LENGTH_SHORT).show();
+
+            Intent intent = new Intent(this,Awareness_List.class);
+>>>>>>> ربط في المنيو و ليست لسيرش و الفيو في كانسر تايب
             this.startActivity(intent);
 
         } else if (id == R.id.nav_logout) {
