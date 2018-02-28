@@ -80,7 +80,10 @@ public class Admin_menu extends AppCompatActivity
 
         } else if (id == R.id.nav_addhospital) {
 
-            Toast.makeText(Admin_menu.this, "addhospital", LENGTH_SHORT).show();
+           // Toast.makeText(Admin_menu.this, "addhospital", LENGTH_SHORT).show();
+
+            Intent intent = new Intent(this,Hospital_info.class);
+            this.startActivity(intent);
 
         } else if (id == R.id.nav_logout) {
 
