@@ -1,9 +1,6 @@
 package com.onestopcancercenter.onestopcancercenter;
 
-<<<<<<< HEAD
-=======
 import android.content.Intent;
->>>>>>> ربط في المنيو و ليست لسيرش و الفيو في كانسر تايب
 import android.database.Cursor;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -71,42 +68,27 @@ public class Homepage extends AppCompatActivity implements AdapterView.OnItemCli
             public boolean onQueryTextSubmit(String s) {
                 return false;
             }
-<<<<<<< HEAD
 
             @Override
             public boolean onQueryTextChange(String s) {
-
-=======
-
-            @Override
-            public boolean onQueryTextChange(String s) {
-
->>>>>>> ربط في المنيو و ليست لسيرش و الفيو في كانسر تايب
                 aa.getFilter().filter(s);
                 return false;
             }
 
         });
 
-<<<<<<< HEAD
-=======
 
 
->>>>>>> ربط في المنيو و ليست لسيرش و الفيو في كانسر تايب
     }
 
     @Override
     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
         TextView tv = (TextView) view;
-<<<<<<< HEAD
-        Toast.makeText(this, "you clicked item #"+i+ tv.getText(),Toast.LENGTH_SHORT).show();
-=======
        // Toast.makeText(this, "you clicked item #"+i+ tv.getText(),Toast.LENGTH_SHORT).show();
        Intent intent =  new Intent(Homepage.this, List_of_Hospitals.class);
         String CN = (String) tv.getText(); // to Send data from thoer activitiy
         intent.putExtra("CN", CN);
         startActivity(intent);
 
->>>>>>> ربط في المنيو و ليست لسيرش و الفيو في كانسر تايب
     }
 }
