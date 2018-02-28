@@ -1,5 +1,6 @@
 package com.onestopcancercenter.onestopcancercenter;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
@@ -65,11 +66,17 @@ public class Admin_menu extends AppCompatActivity
 
         if (id == R.id.nav_home) {
 
-            Toast.makeText(Admin_menu.this, "home", LENGTH_SHORT).show();
+            //Toast.makeText(Admin_menu.this, "home", LENGTH_SHORT).show();
+
+            Intent intent = new Intent(this,Homepage.class);
+            this.startActivity(intent);
 
         } else if (id == R.id.nav_hospitallist) {
 
-            Toast.makeText(Admin_menu.this, "hospitallist", LENGTH_SHORT).show();
+           // Toast.makeText(Admin_menu.this, "hospitallist", LENGTH_SHORT).show();
+
+            Intent intent = new Intent(this,List_of_Hospitals.class);
+            this.startActivity(intent);
 
         } else if (id == R.id.nav_addhospital) {
 

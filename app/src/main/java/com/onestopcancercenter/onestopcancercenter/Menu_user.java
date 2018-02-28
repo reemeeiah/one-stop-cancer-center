@@ -87,7 +87,10 @@ public class Menu_user extends AppCompatActivity
 
         } else if (id == R.id.Nav_awareness) {
 
-            Toast.makeText(Menu_user.this, "awareness", LENGTH_SHORT).show();
+            Intent intent = new Intent(this,Awareness_List.class);
+            this.startActivity(intent);
+
+           // Toast.makeText(Menu_user.this, "awareness", LENGTH_SHORT).show();
 
         } else if (id == R.id.Nav_logout) {
 
