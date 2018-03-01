@@ -90,7 +90,7 @@ public class Admin_menu extends AppCompatActivity
 
             //Toast.makeText(Admin_menu.this, "addhospital", LENGTH_SHORT).show();
 
-            Intent intent = new Intent(this,add_cancer.class);
+            Intent intent = new Intent(Admin_menu.this,add_cancer.class);
             this.startActivity(intent);
 
         }
