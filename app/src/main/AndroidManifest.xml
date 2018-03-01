@@ -34,13 +34,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".add_cancer">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".add_cancer" />
         <activity android:name=".Admin_Sign_in" />
         <activity android:name=".Admin_menu" />
         <activity android:name=".Edit_hospital_info" />
@@ -54,14 +55,11 @@
         <activity android:name=".Awareness_List" />
         <activity android:name=".Hospital_info" />
         <activity android:name=".Hospital_sign_up_page" />
-        <activity android:name=".MainActivity" />
+
         <activity android:name=".MaintainDB" />
         <activity android:name=".Cancer_type_view" />
         <activity android:name=".Homepage" />
-        <activity
-            android:name=".add_cancer"
-            android:label="@string/title_activity_add_cancer"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+
     </application>
 
 </manifest>
