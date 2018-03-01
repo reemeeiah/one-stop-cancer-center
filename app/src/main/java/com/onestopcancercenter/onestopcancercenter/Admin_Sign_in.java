@@ -40,7 +40,7 @@ public class Admin_Sign_in extends AppCompatActivity {
         }
         else{
 
-            info.setText(" Wrong password");
+            info.setText(" Wrong password or user name");
 
             }
         }

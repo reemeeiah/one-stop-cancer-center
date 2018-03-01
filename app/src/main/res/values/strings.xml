@@ -12,4 +12,5 @@
     <string name="city">city</string>
     <string name="todo">TODO</string>
     <string name="title_activity_test_push">test_push</string>
+    <string name="title_activity_add_cancer">add_cancer</string>
 </resources>

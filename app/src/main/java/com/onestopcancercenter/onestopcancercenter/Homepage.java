@@ -1,5 +1,6 @@
 package com.onestopcancercenter.onestopcancercenter;
 
+import android.content.Intent;
 import android.database.Cursor;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -12,7 +13,6 @@ import android.widget.ListView;
 import android.widget.SearchView;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import java.io.File;
 import java.io.IOException;
 
@@ -70,18 +70,24 @@ public class Homepage extends AppCompatActivity implements AdapterView.OnItemCli
 
             @Override
             public boolean onQueryTextChange(String s) {
-
                 aa.getFilter().filter(s);
                 return false;
             }
 
         });
 
+
+
     }
 
     @Override
     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
         TextView tv = (TextView) view;
-        Toast.makeText(this, "you clicked item #"+i+ tv.getText(),Toast.LENGTH_SHORT).show();
+       // Toast.makeText(this, "you clicked item #"+i+ tv.getText(),Toast.LENGTH_SHORT).show();
+       Intent intent =  new Intent(Homepage.this, List_of_Hospitals.class);
+        String CN = (String) tv.getText(); // to Send data from thoer activitiy
+        intent.putExtra("CN", CN);
+        startActivity(intent);
+
     }
 }
