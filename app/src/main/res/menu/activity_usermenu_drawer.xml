@@ -14,6 +14,10 @@
         <item
             android:id="@+id/Nav_awareness"
             android:title="add awareness" />
+
+        <item
+            android:id="@+id/Nav_cancer_type"
+            android:title="cancer type" />
         <item
             android:id="@+id/Nav_logout"
             android:title="logout" />
