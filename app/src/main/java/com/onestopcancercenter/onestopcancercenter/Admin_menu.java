@@ -85,7 +85,17 @@ public class Admin_menu extends AppCompatActivity
             Intent intent = new Intent(this,Hospital_info.class);
             this.startActivity(intent);
 
-        } else if (id == R.id.nav_logout) {
+        }
+        else if (id == R.id.Nav_addcancer) {
+
+            //Toast.makeText(Admin_menu.this, "addhospital", LENGTH_SHORT).show();
+
+            Intent intent = new Intent(this,add_cancer.class);
+            this.startActivity(intent);
+
+        }
+
+        else if (id == R.id.nav_logout) {
 
             Toast.makeText(Admin_menu.this, "logout", LENGTH_SHORT).show();
 

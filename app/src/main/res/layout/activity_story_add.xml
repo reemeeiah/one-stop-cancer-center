@@ -17,11 +17,11 @@
         android:textAlignment="center"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/storyneme"
+        app:layout_constraintBottom_toTopOf="@+id/titleneme"
         app:layout_constraintLeft_toLeftOf="parent" />
 
     <EditText
-        android:id="@+id/storyneme"
+        android:id="@+id/titleneme"
         android:layout_width="223dp"
         android:layout_height="47dp"
         android:layout_marginTop="161dp"
@@ -73,7 +73,7 @@
         android:visibility="visible"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/storyneme" />
+        app:layout_constraintTop_toBottomOf="@+id/titleneme" />
 
     <Button
         android:id="@+id/submit_"
