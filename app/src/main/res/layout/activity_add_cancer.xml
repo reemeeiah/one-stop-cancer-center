@@ -7,34 +7,6 @@
     android:layout_height="match_parent"
     tools:context="com.onestopcancercenter.onestopcancercenter.add_cancer">
 
-    <android.support.design.widget.AppBarLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay">
-
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
-
-    </android.support.design.widget.AppBarLayout>
-
-
-    <TextView
-        android:id="@+id/cancer_title"
-        android:layout_width="234dp"
-        android:layout_height="39dp"
-        android:layout_marginBottom="28dp"
-        android:layout_marginLeft="88dp"
-        android:autoSizeMaxTextSize="@dimen/activity_vertical_margin"
-        android:textAlignment="center"
-        android:textColor="@android:color/holo_blue_dark"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/cancrename"
-        app:layout_constraintLeft_toLeftOf="parent"
-        tools:text="add cancer type" />
 
     <EditText
         android:id="@+id/cancrename"
@@ -48,7 +20,6 @@
         android:textSize="18sp"
         android:theme="@style/Animation.AppCompat.Dialog"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.813"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -60,30 +31,16 @@
         android:layout_height="47dp"
         android:layout_marginTop="161dp"
         android:ems="10"
+        android:hint="Treatment"
         android:inputType="textMultiLine|textPersonName"
         android:textAlignment="center"
         android:textSize="18sp"
         android:theme="@style/Animation.AppCompat.Dialog"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.813"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.683" />
-
-    <TextView
-        android:id="@+id/textViewt"
-        android:layout_width="157dp"
-        android:layout_height="41dp"
-        android:layout_marginLeft="24dp"
-        android:layout_marginTop="12dp"
-        android:autoSizeMaxTextSize="@dimen/activity_vertical_margin"
-        android:text="Subject:"
-        android:textAlignment="center"
-        android:textColor="@android:color/black"
-        android:textSize="24sp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/cancrename" />
+        app:layout_constraintVertical_bias="0.696" />
 
     <EditText
         android:id="@+id/cancerdescription"
@@ -110,48 +67,34 @@
 
     <Button
         android:id="@+id/submit_c"
-        android:layout_width="137dp"
-        android:layout_height="45dp"
-        android:layout_marginEnd="40dp"
-        android:layout_marginTop="32dp"
+        android:layout_width="109dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
         android:background="@android:color/holo_blue_dark"
         android:text="Submit"
         android:textColor="@color/cardview_light_background"
         android:textSize="18sp"
         app:layout_constraintEnd_toStartOf="@+id/cancel_c"
-        app:layout_constraintTop_toBottomOf="@+id/textViewe"
-        android:layout_marginRight="40dp" />
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="@+id/cancerdescription"
+        app:layout_constraintTop_toBottomOf="@+id/treatment" />
 
     <Button
         android:id="@+id/cancel_c"
-        android:layout_width="130dp"
-        android:layout_height="46dp"
+        android:layout_width="109dp"
+        android:layout_height="43dp"
         android:layout_marginBottom="8dp"
-        android:layout_marginTop="124dp"
+        android:layout_marginTop="16dp"
         android:background="@android:color/holo_blue_dark"
         android:text="@android:string/cancel"
         android:textColor="@color/backg1"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/submit_c"
-        app:layout_constraintEnd_toEndOf="@+id/cancerdescription"
-        app:layout_constraintTop_toBottomOf="@+id/cancerdescription"
+        app:layout_constraintEnd_toEndOf="@+id/treatment"
+        app:layout_constraintTop_toBottomOf="@+id/treatment"
         app:layout_constraintVertical_bias="0.0" />
-
-    <TextView
-
-        android:id="@+id/textViewe"
-        android:layout_width="157dp"
-        android:layout_height="41dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="284dp"
-        android:autoSizeMaxTextSize="@dimen/activity_vertical_margin"
-        android:text="subject:"
-        android:textAlignment="center"
-        android:textColor="@android:color/black"
-        android:textSize="24sp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/cancrename"
-        tools:text="Treatmen:" />" />
 
 
 </android.support.constraint.ConstraintLayout>

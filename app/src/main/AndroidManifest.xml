@@ -16,7 +16,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".Admin_menu"
+            android:name=".add_awareness_for_hospital"
             android:theme="@style/cancer1">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,14 +25,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".Admin_Sign_in" />
-
         <activity android:name=".Edit_hospital_info" />
         <activity android:name=".List_of_Hospitals" />
         <activity android:name=".Hospital_menu" />
         <activity android:name=".admin_HOSPITAL_Edit_MENU" />
-        <activity android:name=".add_awareness_for_hospital" />
         <activity android:name=".user_sign_up_page" />
-        <activity android:name=".StoryAdd" />
+
         <activity android:name=".Menu_user" />
         <activity android:name=".Awareness_List" />
         <activity android:name=".Hospital_info" />
@@ -41,6 +39,7 @@
         <activity android:name=".user_sign_in_page" />
         <activity android:name=".Homepage"></activity>
         <activity android:name=".add_cancer"></activity>
+        <activity android:name=".StoryAdd"></activity>
     </application>
 
 </manifest>
