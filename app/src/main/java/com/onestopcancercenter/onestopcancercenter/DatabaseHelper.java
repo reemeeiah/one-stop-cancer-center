@@ -77,7 +77,7 @@ public class DatabaseHelper extends SQLiteOpenHelper{
             }
         }
     }
-
+       // norah
     private void copyDataBase() throws IOException {
 
         Toast.makeText(myContext, " سيتم جلب قاعدة البيانات" , Toast.LENGTH_LONG).show();
